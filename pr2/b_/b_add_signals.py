@@ -191,6 +191,8 @@ class Window(QtWidgets.QWidget):
     def onPushButtonCleaningLog(self):
         self.plainTextEditLog.clear()
 
+
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication()
 
