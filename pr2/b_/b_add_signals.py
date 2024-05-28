@@ -144,9 +144,9 @@ class Window(QtWidgets.QWidget):
         self.pushButtonDateTimeEdit.clicked.connect(self.onPushButtonDateTimeEdit)  # TODO подключить слот для вывода времени из dateTimeEdit в plainTextEditLog при нажатии на кнопку
         self.pushButtonClearLog.clicked.connect(self.onPushButtonCleaningLog)  # TODO подключить слот для очистки plainTextEditLog при нажатии на кнопку
 
-        self.comboBox  # TODO подключить слот для вывода текста в plainTextEditLog при изменении выбранного элемента в comboBox
-        self.spinBox  # TODO подключить слот для вывода значения в plainTextEditLog при изменении значения в spinBox
-        self.dateTimeEdit  # TODO подключить слот для вывода датывремени в plainTextEditLog при изменении датывремени в dateTimeEdit
+        # self.comboBox  # TODO подключить слот для вывода текста в plainTextEditLog при изменении выбранного элемента в comboBox
+        # self.spinBox  # TODO подключить слот для вывода значения в plainTextEditLog при изменении значения в spinBox
+        # self.dateTimeEdit  # TODO подключить слот для вывода датывремени в plainTextEditLog при изменении датывремени в dateTimeEdit
 
     # slots --------------------------------------------------------------
     def onPushButtonComboBox(self):
